@@ -1,6 +1,10 @@
-class Api::MessagesController < ApplicationController
+# frozen_string_literal: true
+
+module Api
+  class MessagesController < ApplicationController
     def random_greeting
-        message = Message.order("RANDOM()").first
-        render json: { message: message.greeting }
-      end    
+      message = Message.order('RANDOM()').first
+      render json: { message: message.greeting }
+    end
+  end
 end
