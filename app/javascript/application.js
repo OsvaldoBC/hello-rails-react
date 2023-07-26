@@ -1,13 +1,9 @@
-// Entry point for the build script in your package.json
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-function App() {
-    return <div>Hello World</div>;
-    }
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
+  <React.StrictMode>
     <App />
-    </React.StrictMode>
-    );
+  </React.StrictMode>,
+);
