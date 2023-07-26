@@ -95,6 +95,7 @@ Clone the repo into your local machine:
 
 ```bash
 git clone git@github.com:OsvaldoBC/hello-rails-react.git
+cd hello-rails-react
 ```
 
 Install the dependencies using bundler:
@@ -104,9 +105,9 @@ bundle install
 
 ### Usage
 
-To start you can open your terminal and in the folder write
+To start the server, you can open your terminal and in the folder write
 ```bash
-ruby main.rb
+./bin/dev
 ```
 
 <p align="right"><a href="#readme-top">👆</a></p>
@@ -163,6 +164,6 @@ We would like to thank Microverse for helping us in the journey to become a Full
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right"><a href="#readme-top">👆</a></p>
