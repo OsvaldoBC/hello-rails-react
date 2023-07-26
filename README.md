@@ -37,8 +37,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-   <li>HTML</li>
-   <li>Bootstrap</li>
+   <li>Ruby on Rails</li>
    <li>React</li>
    <li>Redux</li>
   </ul>
@@ -98,9 +97,12 @@ git clone git@github.com:OsvaldoBC/hello-rails-react.git
 cd hello-rails-react
 ```
 
-Install the dependencies using bundler:
+Install this project with:
 ```bash
 bundle install
+rails db:setup
+npm install
+npm install axios
 ```
 
 ### Usage
@@ -130,7 +132,6 @@ To start the server, you can open your terminal and in the folder write
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Improve UI/UX design
-- Create a Desktop version
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
